@@ -6,6 +6,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="deployment-config.yaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="deployment-config.yaml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
